@@ -1,5 +1,5 @@
 # ============================================================
-# HTTP Requests — GET with the requests Library
+# HTTP Requests - GET with the requests Library
 # ============================================================
 # HTTP Status Codes:
 #   200 OK              201 Created         204 No Content
@@ -92,7 +92,7 @@ for i in range(1, 21):
         print("-----")
 
 # ------------------------------------------------------------
-# Filtering by Type — Nested JSON Traversal
+# Filtering by Type - Nested JSON Traversal
 # ------------------------------------------------------------
 type_name = "fire"
 url = f"{base_url}type/{type_name}"

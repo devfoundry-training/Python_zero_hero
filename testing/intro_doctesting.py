@@ -1,10 +1,10 @@
 # ============================================================
-# Doctests — Testing via Docstring Examples
+# Doctests - Testing via Docstring Examples
 # ============================================================
 # Doctests embed test cases inside docstrings using >>> syntax.
 # Run with: python -m doctest intro_doctesting.py -v
 #
-# If output doesn’t match the expected value, the test fails.
+# If output doesn't match the expected value, the test fails.
 # Doctests serve as both documentation and lightweight tests.
 # ============================================================
 

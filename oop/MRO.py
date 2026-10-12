@@ -1,5 +1,5 @@
 # ============================================================
-# Method Resolution Order (MRO) — The Diamond Problem
+# Method Resolution Order (MRO) - The Diamond Problem
 # ============================================================
 # Python uses C3 Linearization to determine the order in which
 # base classes are searched when calling a method.

@@ -1,0 +1,35 @@
+Library Manager: 20 books, 9 members
+> borrow 101 4
+OK: Amira Khan borrowed Dune, due in 14 days
+> borrow 101 3
+Error: The Hobbit has no copies available
+> borrow 101 99
+Error: no book with id 99
+> borrow 999 1
+Error: no member with id 999
+> borrow 101 x
+Error: book id must be a whole number, got 'x'
+> borrow 101
+Error: usage: borrow MEMBER_ID BOOK_ID
+> return 101 4
+OK: Amira Khan returned Dune
+> return 101 4
+Error: Dune is not on loan to Amira Khan
+> return 102 9
+Error: The Left Hand of Darkness is not on loan to Ben Taylor
+> BORROW 101 1
+OK: Amira Khan borrowed Pride and Prejudice, due in 14 days
+> borrow 101 2
+OK: Amira Khan borrowed Nineteen Eighty-Four, due in 14 days
+> borrow 101 7
+OK: Amira Khan borrowed Animal Farm, due in 14 days
+> borrow 101 10
+Error: Amira Khan already has 3 loans (limit 3)
+> loans 101
+Amira Khan has 3 loans: Pride and Prejudice, Nineteen Eighty-Four, Animal Farm
+> loans 103
+Chloe Evans has no loans
+> dance
+Error: unknown command 'dance'
+> quit
+Goodbye

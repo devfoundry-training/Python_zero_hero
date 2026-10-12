@@ -1,0 +1,46 @@
+Created out/library.db from schema.sql
+Imported 20 books, 9 members, 12 loans
+Books per genre
+Adventure: 1
+Classic: 2
+Crime: 2
+Dystopian: 3
+Fantasy: 2
+Gothic: 1
+Historical: 2
+Literary: 2
+Science Fiction: 5
+Nothing on the shelf
+#3 The Hobbit: 0 of 0 available
+#5 Robinson Crusoe: 0 of 1 available
+#9 The Left Hand of Darkness: 0 of 0 available
+Search "the": 8 books
+  #3 The Hobbit (1937)
+  #6 The Time Machine (1895)
+  #9 The Left Hand of Darkness (1969)
+  #10 Murder on the Orient Express (1934)
+  #11 The Murder of Roger Ackroyd (1926)
+  #14 The Martian (2011)
+  #17 The Remains of the Day (1989)
+  #20 The War of the Worlds (1898)
+Search "x' OR '1'='1": 0 books
+Open loans per member
+#101 Amira Khan: 1
+#102 Ben Taylor: 1
+#103 Chloe Evans: 1
+#104 Dev Patel: 1
+#105 Ella Brown: 2
+#106 Femi Adeyemi: 1
+#107 Grace Wilson: 0
+#108 Harry Jones: 1
+#109 Ben Taylor: 0
+New loans on 2026-10-12
+OK: Ella Brown borrowed Small Island, due 2026-10-26, saved as loan 13
+Error: Ella Brown already has 3 loans (limit 3)
+OK: Ben Taylor returned The Martian, fine £0.60, saved
+Reloaded: 20 books, 9 members, 13 loans (8 open)
+Overdue on 2026-10-12: 4 loans
+24 days: Murder on the Orient Express, Dev Patel (student), due 2026-09-18, fine £2.40
+9 days: Dune, Chloe Evans (staff), due 2026-10-03, fine £0.00
+8 days: Robinson Crusoe, Ella Brown (standard), due 2026-10-04, fine £2.00
+1 day: Pride and Prejudice, Ella Brown (standard), due 2026-10-11, fine £0.25

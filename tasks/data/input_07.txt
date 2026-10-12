@@ -1,0 +1,19 @@
+borrow 101 4
+borrow 101 3
+borrow 101 99
+borrow 999 1
+borrow 101 x
+borrow 101
+return 101 4
+return 101 4
+return 102 9
+
+BORROW 101 1
+borrow 101 2
+borrow 101 7
+borrow 101 10
+loans 101
+loans 103
+dance
+quit
+borrow 101 5

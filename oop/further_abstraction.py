@@ -1,10 +1,10 @@
 # ============================================================
-# Further Abstraction — Properties, Class Methods, Static Methods
+# Further Abstraction - Properties, Class Methods, Static Methods
 # ============================================================
-# @abstractmethod — must be implemented by concrete subclasses
-# @property      — can combine with @abstractmethod for abstract properties
-# @classmethod   — operates on the class, not instances
-# @staticmethod  — not tied to instance or class, used for organisation
+# @abstractmethod - must be implemented by concrete subclasses
+# @property      - can combine with @abstractmethod for abstract properties
+# @classmethod   - operates on the class, not instances
+# @staticmethod  - not tied to instance or class, used for organisation
 # ============================================================
 
 from abc import ABC, abstractmethod

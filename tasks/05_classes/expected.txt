@@ -1,0 +1,34 @@
+Library: 20 books, 9 members
+#4 Dune by Frank Herbert (1965), 4 of 4 available
+#101 Amira Khan (standard), 0 loans
+Find "the": 8 books
+  #3 The Hobbit by J. R. R. Tolkien (1937), 0 of 0 available
+  #6 The Time Machine by H. G. Wells (1895), 2 of 2 available
+  #9 The Left Hand of Darkness by Ursula K. Le Guin (1969), 0 of 0 available
+  #10 Murder on the Orient Express by Agatha Christie (1934), 2 of 2 available
+  #11 The Murder of Roger Ackroyd by Agatha Christie (1926), 1 of 1 available
+  #14 The Martian by Andy Weir (2011), 3 of 3 available
+  #17 The Remains of the Day by Kazuo Ishiguro (1989), 2 of 2 available
+  #20 The War of the Worlds by H. G. Wells (1898), 3 of 3 available
+Find "zzz": no books
+Find id 99: not found
+Borrowing
+borrow 101 4: OK
+borrow 101 3: refused
+borrow 999 1: refused
+borrow 101 99: refused
+borrow 102 5: OK
+borrow 103 5: refused
+return 101 4: OK
+return 101 4: refused
+After borrowing
+#4 Dune by Frank Herbert (1965), 4 of 4 available
+#5 Robinson Crusoe by Daniel Defoe (1719), 0 of 1 available
+#101 Amira Khan (standard), 0 loans
+#102 Ben Taylor (student), 1 loan
+Validation
+Rejected: book id must be positive
+Rejected: title must not be blank
+Rejected: year must be between 1450 and 2100
+Rejected: copies must not be negative
+Rejected: member type must be standard, student or staff

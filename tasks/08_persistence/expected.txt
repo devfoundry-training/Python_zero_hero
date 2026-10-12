@@ -1,0 +1,14 @@
+Loaded 20 books from books.csv
+Loaded 9 members from members.csv
+Saved 20 books to out/books.csv
+Saved 20 books and 9 members to out/library.json
+Reloaded out/books.csv: 20 books, same as before
+Loading missing.csv
+  file not found, starting with an empty catalogue
+Loading books_corrupt.csv
+  line 4: year must be a whole number, got 'nineteen'
+  line 6: expected 8 fields, found 5
+  line 9: copies must not be negative
+  line 10: format must be print, ebook or audio, got 'scroll'
+  line 11: duplicate book id 2
+  loaded 5 books, skipped 5 lines

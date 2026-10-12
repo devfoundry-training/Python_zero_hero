@@ -1,0 +1,29 @@
+Today is 2026-10-12
+Loans
+ID  Book                            Member        Borrowed    Due         Status
+--  ------------------------------  ------------  ----------  ----------  ------
+ 1  Pride and Prejudice             Amira Khan    2026-09-01  2026-09-15  returned on time
+ 2  Nineteen Eighty-Four            Ben Taylor    2026-09-10  2026-10-01  returned 4 days late
+ 3  Dune                            Chloe Evans   2026-09-05  2026-10-03  overdue by 9 days
+ 4  Robinson Crusoe                 Ella Brown    2026-09-20  2026-10-04  overdue by 8 days
+ 5  Animal Farm                     Amira Khan    2026-10-01  2026-10-15  on loan, 3 days left
+ 6  Murder on the Orient Express    Dev Patel     2026-08-28  2026-09-18  overdue by 24 days
+ 7  The Time Machine                Femi Adeyemi  2026-10-10  2026-10-24  on loan, 12 days left
+ 8  The Martian                     Ben Taylor    2026-09-15  2026-10-06  overdue by 6 days
+ 9  Brave New World                 Grace Wilson  2026-08-01  2026-08-29  returned 12 days late
+10  Frankenstein                    Harry Jones   2026-09-21  2026-10-12  due today
+11  Pride and Prejudice             Ella Brown    2026-09-27  2026-10-11  overdue by 1 day
+12  The War of the Worlds           Ben Taylor    2026-09-14  2026-09-28  returned 2 days late
+Overdue on 2026-10-12: 5 loans
+24 days: Murder on the Orient Express, Dev Patel (student), due 2026-09-18, fine £2.40
+9 days: Dune, Chloe Evans (staff), due 2026-10-03, fine £0.00
+8 days: Robinson Crusoe, Ella Brown (standard), due 2026-10-04, fine £2.00
+6 days: The Martian, Ben Taylor (student), due 2026-10-06, fine £0.60
+1 day: Pride and Prejudice, Ella Brown (standard), due 2026-10-11, fine £0.25
+Fines
+on overdue loans: £5.25
+on late returns: £0.90
+New loans on 2026-10-12
+OK: Ella Brown borrowed Small Island, due 2026-10-26
+Error: Ella Brown already has 3 loans (limit 3)
+OK: Ben Taylor returned The Martian, 6 days late, fine £0.60

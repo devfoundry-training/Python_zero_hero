@@ -1,5 +1,5 @@
 # ============================================================
-# Further Functions — Lambdas, Higher-Order, Closures, Partials
+# Further Functions - Lambdas, Higher-Order, Closures, Partials
 # ============================================================
 
 # ------------------------------------------------------------
@@ -52,7 +52,7 @@ double = multiplier(2)
 print(double(5))  # Output: 10
 
 # ------------------------------------------------------------
-# Partial Functions — functools.partial
+# Partial Functions - functools.partial
 # ------------------------------------------------------------
 
 from functools import partial
@@ -70,7 +70,7 @@ print(cube(2))  # Output: 8
 
 
 # ------------------------------------------------------------
-# Decorators — Preview (see decorators.py for full coverage)
+# Decorators - Preview (see decorators.py for full coverage)
 # ------------------------------------------------------------
 
 def decorator_example(func):

@@ -1,0 +1,23 @@
+Report
+ID  Title                           Year  Copies
+--  ------------------------------  ----  ------
+ 1  Pride and Prejudice             1813       3
+ 2  Nineteen Eighty-Four            1949       2
+ 3  The Hobbit                      1937       0
+ 4  Dune                            1965       4
+ 5  Robinson Crusoe                 1719       1
+ 6  The Time Machine                1895       2
+ 7  Animal Farm                     1945       5
+ 8  Emma                            1815       1
+ 9  The Left Hand of Darkness       1969       0
+10  Murder on the Orient Express    1934       2
+Search "the": 4 matches
+  The Hobbit
+  The Time Machine
+  The Left Hand of Darkness
+  Murder on the Orient Express
+Search "TIME": 1 match
+  The Time Machine
+Search "zzz": no matches
+Words in titles: 26
+Longest title: Murder on the Orient Express (28 characters)

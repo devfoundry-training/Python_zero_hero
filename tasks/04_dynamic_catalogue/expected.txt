@@ -1,0 +1,42 @@
+Loaded 20 books
+Genres (9)
+Adventure (1): Robinson Crusoe
+Classic (2): Pride and Prejudice, Emma
+Crime (2): Murder on the Orient Express, The Murder of Roger Ackroyd
+Dystopian (3): Nineteen Eighty-Four, Animal Farm, Brave New World
+Fantasy (2): The Hobbit, A Wizard of Earthsea
+Gothic (1): Frankenstein
+Historical (2): Small Island, Wolf Hall
+Literary (2): The Remains of the Day, Never Let Me Go
+Science Fiction (5): Dune, The Time Machine, The Left Hand of Darkness, The Martian, The War of the Worlds
+Authors (14 unique across 20 books)
+Agatha Christie
+Aldous Huxley
+Andrea Levy
+Andy Weir
+Daniel Defoe
+Frank Herbert
+George Orwell
+H. G. Wells
+Hilary Mantel
+J. R. R. Tolkien
+Jane Austen
+Kazuo Ishiguro
+Mary Shelley
+Ursula K. Le Guin
+Borrowing
+borrow 1: OK, 2 left
+borrow 1: OK, 1 left
+borrow 4: OK, 3 left
+return 1: OK, 2 left
+borrow 3: refused, none available
+borrow 7: OK, 4 left
+return 9: refused, none on loan
+borrow 1: OK, 1 left
+Counts
+borrows: 5
+returns: 1
+refused: 2
+book 1: borrowed 3, returned 1
+book 4: borrowed 1, returned 0
+book 7: borrowed 1, returned 0

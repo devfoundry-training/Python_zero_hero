@@ -1,0 +1,36 @@
+Formats
+#1 Pride and Prejudice: print, 432 pages
+#2 Nineteen Eighty-Four: print, 328 pages
+#3 The Hobbit: print, 310 pages
+#4 Dune: print, 412 pages
+#5 Robinson Crusoe: print, 320 pages
+#6 The Time Machine: ebook, 118 pages
+#7 Animal Farm: print, 112 pages
+#8 Emma: audio, 19h 10m
+#9 The Left Hand of Darkness: print, 304 pages
+#10 Murder on the Orient Express: print, 256 pages
+#11 The Murder of Roger Ackroyd: ebook, 312 pages
+#12 A Wizard of Earthsea: print, 183 pages
+#13 Brave New World: audio, 8h 00m
+#14 The Martian: print, 369 pages
+#15 Small Island: print, 441 pages
+#16 Wolf Hall: audio, 24h 00m
+#17 The Remains of the Day: print, 258 pages
+#18 Never Let Me Go: ebook, 288 pages
+#19 Frankenstein: print, 280 pages
+#20 The War of the Worlds: audio, 6h 50m
+Policies
+standard: 14 days, £0.25 a day, up to 3 loans
+student: 21 days, £0.10 a day, up to 5 loans
+staff: 28 days, no fines, up to 10 loans
+Fine for 3 days late
+standard: £0.75
+student: £0.30
+staff: £0.00
+Limits
+borrow 101 1: OK, due in 14 days
+borrow 101 2: OK, due in 14 days
+borrow 101 4: OK, due in 14 days
+borrow 101 7: refused
+borrow 102 7: OK, due in 21 days
+borrow 103 7: OK, due in 28 days

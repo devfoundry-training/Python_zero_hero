@@ -1,5 +1,5 @@
 # ============================================================
-# Functions — Definitions, Arguments, and Scope
+# Functions - Definitions, Arguments, and Scope
 # ============================================================
 
 # ------------------------------------------------------------
@@ -26,7 +26,7 @@ print(next_function(1, first_name="Ed"))  # Pass by name
 # Note: positional arguments cannot follow keyword arguments
 
 # ------------------------------------------------------------
-# Variadic Functions — *args and **kwargs
+# Variadic Functions - *args and **kwargs
 # ------------------------------------------------------------
 
 # *args collects extra positional arguments as a tuple
@@ -105,7 +105,7 @@ def print_vat(**kwargs: 'VAT, gross and message'):
 print(print_vat.__annotations__)
 
 # ------------------------------------------------------------
-# Scope — Global, Local, and Nonlocal
+# Scope - Global, Local, and Nonlocal
 # ------------------------------------------------------------
 
 var = 1

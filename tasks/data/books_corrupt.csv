@@ -1,0 +1,12 @@
+id,title,author,year,genre,copies,format,length
+1,Pride and Prejudice,Jane Austen,1813,Classic,3,print,432
+2,Nineteen Eighty-Four,George Orwell,1949,Dystopian,2,print,328
+3,The Hobbit,J. R. R. Tolkien,nineteen,Fantasy,0,print,310
+4,Dune,Frank Herbert,1965,Science Fiction,4,print,412
+5,Robinson Crusoe,Daniel Defoe,1719,Adventure
+
+6,The Time Machine,H. G. Wells,1895,Science Fiction,2,ebook,118
+7,Animal Farm,George Orwell,1945,Dystopian,-1,print,112
+8,Emma,Jane Austen,1815,Classic,1,scroll,1150
+2,Nineteen Eighty-Four,George Orwell,1949,Dystopian,2,print,328
+10,Murder on the Orient Express,Agatha Christie,1934,Crime,2,print,256

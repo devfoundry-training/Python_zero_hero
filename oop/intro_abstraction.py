@@ -1,5 +1,5 @@
 # ============================================================
-# Abstraction — Abstract Base Classes (ABC)
+# Abstraction - Abstract Base Classes (ABC)
 # ============================================================
 
 from abc import ABC, abstractmethod

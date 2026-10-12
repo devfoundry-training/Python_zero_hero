@@ -1,0 +1,9 @@
+Busy library
+Scenario 1: 8 members, 1 book with 3 copies, everyone borrows at once
+borrowed: 3
+refused: 5
+available at end: 0
+Scenario 2: 4 members, 4 copies, 5000 borrow-and-return cycles each
+loans recorded: 20000
+available at end: 4
+Result: OK

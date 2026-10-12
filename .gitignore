@@ -42,3 +42,8 @@ Desktop.ini
 drop/
 *.pickle
 output.csv
+
+# ===========================
+# Task output (tasks 08 and 10 write here)
+# ===========================
+out/

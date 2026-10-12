@@ -1,9 +1,9 @@
 # ============================================================
-# SQLite — Full CRUD with Python’s sqlite3 Module
+# SQLite - Full CRUD with Python's sqlite3 Module
 # ============================================================
 # SQLite is serverless and stores everything in a single file.
 # Ideal for local storage, prototyping, and teaching SQL.
-# Note: SQLite is dynamically typed — it doesn’t enforce column
+# Note: SQLite is dynamically typed - it doesn't enforce column
 # types as strictly as MySQL or PostgreSQL.
 # ============================================================
 

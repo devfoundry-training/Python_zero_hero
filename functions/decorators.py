@@ -1,5 +1,5 @@
 # ============================================================
-# Decorators — Practical Examples
+# Decorators - Practical Examples
 # ============================================================
 # A decorator wraps a function to modify its behaviour without
 # changing its source code. Common uses: logging, timing,

@@ -1,0 +1,23 @@
+Catalogue (10 books)
+1 | Pride and Prejudice | 1813 | 3 copies | 19th century | pre-1950
+2 | Nineteen Eighty-Four | 1949 | 2 copies | 20th century | pre-1950
+3 | The Hobbit | 1937 | out of stock | 20th century | pre-1950
+4 | Dune | 1965 | 4 copies | 20th century
+5 | Robinson Crusoe | 1719 | 1 copy | 18th century | pre-1950
+6 | The Time Machine | 1895 | 2 copies | 19th century | pre-1950
+7 | Animal Farm | 1945 | 5 copies | 20th century | pre-1950
+8 | Emma | 1815 | 1 copy | 19th century | pre-1950
+9 | The Left Hand of Darkness | 1969 | out of stock | 20th century
+10 | Murder on the Orient Express | 1934 | 2 copies | 20th century | pre-1950
+Odd ids only (5 books)
+1 | Pride and Prejudice
+3 | The Hobbit
+5 | Robinson Crusoe
+7 | Animal Farm
+9 | The Left Hand of Darkness
+Totals
+books: 10
+copies: 20
+out of stock: 2
+pre-1950: 8
+average year: 1894

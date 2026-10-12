@@ -1,5 +1,5 @@
 # ============================================================
-# Inheritance — Base Classes, Overriding, Polymorphism
+# Inheritance - Base Classes, Overriding, Polymorphism
 # ============================================================
 
 

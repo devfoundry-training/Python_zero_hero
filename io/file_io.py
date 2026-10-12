@@ -1,5 +1,5 @@
 # ============================================================
-# File I/O — Reading, Writing, Binary, Pickling, CSV, SQLite
+# File I/O - Reading, Writing, Binary, Pickling, CSV, SQLite
 # ============================================================
 # File Modes:
 #   'r'  -> Read (default)     'w'  -> Write (overwrite)
@@ -15,7 +15,7 @@ import sqlite3
 import os
 
 # ------------------------------------------------------------
-# EAFP vs LBYL — Two Approaches to File Access
+# EAFP vs LBYL - Two Approaches to File Access
 # ------------------------------------------------------------
 
 # EAFP: Easier to Ask for Forgiveness than Permission
@@ -80,7 +80,7 @@ with open('drop/out.dat', 'wb') as dat_f:
     dat_f.write(s.encode())
 
 # ------------------------------------------------------------
-# sys.stdin / sys.stdout — Low-Level I/O
+# sys.stdin / sys.stdout - Low-Level I/O
 # ------------------------------------------------------------
 sys.stdout.write("Please enter a value: ")
 sys.stdout.flush()
@@ -89,14 +89,14 @@ safe_reply = sys.stdin.readline().strip()
 print(f"Input was: {reply} and {safe_reply}")
 
 # ------------------------------------------------------------
-# File Navigation — seek() and tell()
+# File Navigation - seek() and tell()
 # ------------------------------------------------------------
 with open("drop/Errors.txt", "r") as f:
     f.seek(0)  # Move to the beginning
     print("Current position:", f.tell())  # Shows current file position
 
 # ------------------------------------------------------------
-# Pickling — Serialising Python Objects
+# Pickling - Serialising Python Objects
 # ------------------------------------------------------------
 new_obj = {"key": "value", "number": 42}
 with open('drop/pickle-file.pickle', 'wb') as pickle_f:
@@ -108,7 +108,7 @@ with open('drop/pickle-file.pickle', 'rb') as pickle_f:
     print("Pickled object:", stored_obj)
 
 # ------------------------------------------------------------
-# CSV — Reading and Writing
+# CSV - Reading and Writing
 # ------------------------------------------------------------
 csv_data = [["Name", "Age"], ["Alice", 30], ["Bob", 25]]
 with open('drop/people.csv', 'w', newline='') as csv_f:
@@ -122,7 +122,7 @@ with open('drop/people.csv', 'r') as csv_f:
         print("CSV Row:", row)
 
 # ------------------------------------------------------------
-# SQLite — Quick Database Example
+# SQLite - Quick Database Example
 # ------------------------------------------------------------
 conn = sqlite3.connect('drop/my_database.db')
 cursor = conn.cursor()

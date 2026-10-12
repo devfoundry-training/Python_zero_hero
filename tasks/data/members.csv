@@ -1,0 +1,10 @@
+id,name,email,type,joined
+101,Amira Khan,amira.khan@example.com,standard,2023-01-15
+102,Ben Taylor,ben.taylor@example.com,student,2024-09-02
+103,Chloe Evans,chloe.evans@example.com,staff,2019-05-20
+104,Dev Patel,dev.patel@example.com,student,2025-09-10
+105,Ella Brown,ella.brown@example.com,standard,2021-03-08
+106,Femi Adeyemi,femi.adeyemi@example.com,standard,2022-11-30
+107,Grace Wilson,grace.wilson@example.com,staff,2018-07-01
+108,Harry Jones,harry.jones@example.com,student,2026-01-12
+109,Ben Taylor,ben.taylor2@example.com,standard,2025-02-14

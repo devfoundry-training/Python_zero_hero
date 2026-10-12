@@ -1,5 +1,5 @@
 # ============================================================
-# JSON Handling — Reading, Writing, and Parsing JSON
+# JSON Handling - Reading, Writing, and Parsing JSON
 # ============================================================
 
 import json
@@ -32,7 +32,7 @@ print("Name:", loaded["name"])
 print("Skills:", loaded["skills"])
 
 # ------------------------------------------------------------
-# JSON Strings — dumps() and loads()
+# JSON Strings - dumps() and loads()
 # ------------------------------------------------------------
 
 # Convert a Python object to a JSON string
@@ -61,4 +61,4 @@ print("Nested JSON:\n", json_nested)
 # Access nested data after parsing
 parsed_nested = json.loads(json_nested)
 for emp in parsed_nested["employees"]:
-    print(f"  {emp['name']} — {emp['role']}")
+    print(f"  {emp['name']} - {emp['role']}")

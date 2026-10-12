@@ -51,7 +51,7 @@ first, *middle, last = values
 print(first, middle, last)  # 1 [2, 3, 4] 5
 
 # ------------------------------------------------------------
-# Collections Module — Specialised Types
+# Collections Module - Specialised Types
 # ------------------------------------------------------------
 
 # NamedTuple

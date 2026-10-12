@@ -1,12 +1,12 @@
 # ============================================================
-# CSV Handling — Chunked Reading/Writing with csv and pandas
+# CSV Handling - Chunked Reading/Writing with csv and pandas
 # ============================================================
 
 import csv
 import pandas as pd
 
 # ------------------------------------------------------------
-# Reading CSV in Chunks — stdlib csv module
+# Reading CSV in Chunks - stdlib csv module
 # ------------------------------------------------------------
 
 
@@ -19,7 +19,7 @@ def process_chunk(chunk):
 chunk_size = 1000
 chunk = []
 
-with open(‘large_dataset.csv’, mode=’r’) as file:
+with open('large_dataset.csv', mode='r') as file:
     csv_reader = csv.reader(file)
     header = next(csv_reader)  # Skip header row
 
@@ -33,22 +33,22 @@ with open(‘large_dataset.csv’, mode=’r’) as file:
         process_chunk(chunk)
 
 # ------------------------------------------------------------
-# Reading CSV in Chunks — pandas
+# Reading CSV in Chunks - pandas
 # ------------------------------------------------------------
 
-chunks = pd.read_csv(‘large_dataset.csv’, chunksize=chunk_size)
+chunks = pd.read_csv('large_dataset.csv', chunksize=chunk_size)
 
 for chunk in chunks:
     print(chunk.head())
 
 # ------------------------------------------------------------
-# Writing CSV in Chunks — stdlib csv module
+# Writing CSV in Chunks - stdlib csv module
 # ------------------------------------------------------------
 
-data = [[‘Name’, ‘Age’], [‘Alice’, 30], [‘Bob’, 25], [‘Charlie’, 35]]
+data = [['Name', 'Age'], ['Alice', 30], ['Bob', 25], ['Charlie', 35]]
 chunk = []
 
-with open(‘output.csv’, mode=’w’, newline=’’) as file:
+with open('output.csv', mode='w', newline='') as file:
     csv_writer = csv.writer(file)
 
     for row in data:
@@ -61,9 +61,9 @@ with open(‘output.csv’, mode=’w’, newline=’’) as file:
         csv_writer.writerows(chunk)
 
 # ------------------------------------------------------------
-# Writing CSV — pandas DataFrame
+# Writing CSV - pandas DataFrame
 # ------------------------------------------------------------
 
-data = {‘Name’: [‘Alice’, ‘Bob’, ‘Charlie’], ‘Age’: [30, 25, 35]}
+data = {'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [30, 25, 35]}
 df = pd.DataFrame(data)
-df.to_csv(‘output.csv’, index=False)
+df.to_csv('output.csv', index=False)

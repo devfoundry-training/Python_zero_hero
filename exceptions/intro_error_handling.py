@@ -1,5 +1,5 @@
 # ============================================================
-# Error Handling — try/except/else/finally
+# Error Handling - try/except/else/finally
 # ============================================================
 
 # ------------------------------------------------------------
@@ -17,7 +17,7 @@ try:
 except (ValueError, TypeError) as e:
     print(f"Error: {e}")
 
-# else block — runs only if no exception was raised
+# else block - runs only if no exception was raised
 try:
     value = 5
     result = value / 2
@@ -26,7 +26,7 @@ except ZeroDivisionError:
 else:
     print(f"The result is: {result}")
 
-# finally block — always executes regardless of outcome
+# finally block - always executes regardless of outcome
 try:
     file = open("non_existent_file.txt", "r")
 except FileNotFoundError:

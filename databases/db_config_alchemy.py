@@ -1,5 +1,5 @@
 # ============================================================
-# SQLAlchemy — Database Connection with an ORM Engine
+# SQLAlchemy - Database Connection with an ORM Engine
 # ============================================================
 # Connection string format:
 #   Dialect+Driver://Username:Password@Host:Port/Database

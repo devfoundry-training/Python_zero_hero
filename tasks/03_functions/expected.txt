@@ -1,0 +1,63 @@
+Library Manager
+Menu: 1 catalogue | 2 search | 3 report | 4 stats | 0 quit
+> 1
+Catalogue (10 books)
+1 | Pride and Prejudice | 1813 | 3 copies | 19th century | pre-1950
+2 | Nineteen Eighty-Four | 1949 | 2 copies | 20th century | pre-1950
+3 | The Hobbit | 1937 | out of stock | 20th century | pre-1950
+4 | Dune | 1965 | 4 copies | 20th century
+5 | Robinson Crusoe | 1719 | 1 copy | 18th century | pre-1950
+6 | The Time Machine | 1895 | 2 copies | 19th century | pre-1950
+7 | Animal Farm | 1945 | 5 copies | 20th century | pre-1950
+8 | Emma | 1815 | 1 copy | 19th century | pre-1950
+9 | The Left Hand of Darkness | 1969 | out of stock | 20th century
+10 | Murder on the Orient Express | 1934 | 2 copies | 20th century | pre-1950
+Menu: 1 catalogue | 2 search | 3 report | 4 stats | 0 quit
+> 2
+Search for:
+> the
+Search "the": 4 matches
+  The Hobbit
+  The Time Machine
+  The Left Hand of Darkness
+  Murder on the Orient Express
+Menu: 1 catalogue | 2 search | 3 report | 4 stats | 0 quit
+> 2
+Search for:
+> DUNE
+Search "DUNE": 1 match
+  Dune
+Menu: 1 catalogue | 2 search | 3 report | 4 stats | 0 quit
+> abc
+Unknown choice: abc
+Menu: 1 catalogue | 2 search | 3 report | 4 stats | 0 quit
+> 9
+Unknown choice: 9
+Menu: 1 catalogue | 2 search | 3 report | 4 stats | 0 quit
+> 3
+Report
+ID  Title                           Year  Copies
+--  ------------------------------  ----  ------
+ 1  Pride and Prejudice             1813       3
+ 2  Nineteen Eighty-Four            1949       2
+ 3  The Hobbit                      1937       0
+ 4  Dune                            1965       4
+ 5  Robinson Crusoe                 1719       1
+ 6  The Time Machine                1895       2
+ 7  Animal Farm                     1945       5
+ 8  Emma                            1815       1
+ 9  The Left Hand of Darkness       1969       0
+10  Murder on the Orient Express    1934       2
+Menu: 1 catalogue | 2 search | 3 report | 4 stats | 0 quit
+> 4
+Stats
+books: 10
+copies: 20
+out of stock: 2
+pre-1950: 8
+average year: 1894
+words in titles: 26
+longest title: Murder on the Orient Express (28 characters)
+Menu: 1 catalogue | 2 search | 3 report | 4 stats | 0 quit
+> 0
+Goodbye

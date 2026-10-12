@@ -1,8 +1,8 @@
 # ============================================================
-# Python Zero to Hero — Entry Point
+# Python Zero to Hero - Entry Point
 # ============================================================
 # Run individual modules directly for each topic:
-#   python datatypes/basic_datatypes.py
+#   python basics/basic_datatypes.py
 #   python functions/intro_func.py
 #   python oop/Inheritance.py
 # ============================================================

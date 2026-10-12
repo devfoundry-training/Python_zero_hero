@@ -1,5 +1,5 @@
 # ============================================================
-# Basic SQL Handling — Raw SQL with SQLite
+# Basic SQL Handling - Raw SQL with SQLite
 # ============================================================
 # Demonstrates CRUD operations using Python's built-in sqlite3
 # module. No ORM, no external dependencies.
@@ -27,7 +27,7 @@ with sqlite3.connect(":memory:") as conn:
     """)
 
     # ------------------------------------------------------------
-    # INSERT — Adding records
+    # INSERT - Adding records
     # ------------------------------------------------------------
     # Always use parameterised queries (?) to prevent SQL injection.
 
@@ -49,7 +49,7 @@ with sqlite3.connect(":memory:") as conn:
     conn.commit()
 
     # ------------------------------------------------------------
-    # SELECT — Querying data
+    # SELECT - Querying data
     # ------------------------------------------------------------
 
     # Fetch all rows
@@ -68,7 +68,7 @@ with sqlite3.connect(":memory:") as conn:
         print(f"  {row[0]}: £{row[1]:,.2f}")
 
     # ------------------------------------------------------------
-    # UPDATE — Modifying records
+    # UPDATE - Modifying records
     # ------------------------------------------------------------
 
     cursor.execute(
@@ -82,7 +82,7 @@ with sqlite3.connect(":memory:") as conn:
     print(f"\nUpdated: {cursor.fetchone()}")
 
     # ------------------------------------------------------------
-    # DELETE — Removing records
+    # DELETE - Removing records
     # ------------------------------------------------------------
 
     cursor.execute("DELETE FROM employees WHERE name = ?", ("Bob",))

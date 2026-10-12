@@ -1,0 +1,81 @@
+GET /books
+200 json
+[
+  {"author":"Jane Austen","available":2,"copies":3,"format":"print","genre":"Classic","id":1,"title":"Pride and Prejudice","year":1813}
+  {"author":"George Orwell","available":2,"copies":2,"format":"print","genre":"Dystopian","id":2,"title":"Nineteen Eighty-Four","year":1949}
+  {"author":"J. R. R. Tolkien","available":0,"copies":0,"format":"print","genre":"Fantasy","id":3,"title":"The Hobbit","year":1937}
+  {"author":"Frank Herbert","available":3,"copies":4,"format":"print","genre":"Science Fiction","id":4,"title":"Dune","year":1965}
+  {"author":"Daniel Defoe","available":0,"copies":1,"format":"print","genre":"Adventure","id":5,"title":"Robinson Crusoe","year":1719}
+  {"author":"H. G. Wells","available":1,"copies":2,"format":"ebook","genre":"Science Fiction","id":6,"title":"The Time Machine","year":1895}
+  {"author":"George Orwell","available":4,"copies":5,"format":"print","genre":"Dystopian","id":7,"title":"Animal Farm","year":1945}
+  {"author":"Jane Austen","available":1,"copies":1,"format":"audio","genre":"Classic","id":8,"title":"Emma","year":1815}
+  {"author":"Ursula K. Le Guin","available":0,"copies":0,"format":"print","genre":"Science Fiction","id":9,"title":"The Left Hand of Darkness","year":1969}
+  {"author":"Agatha Christie","available":1,"copies":2,"format":"print","genre":"Crime","id":10,"title":"Murder on the Orient Express","year":1934}
+  {"author":"Agatha Christie","available":1,"copies":1,"format":"ebook","genre":"Crime","id":11,"title":"The Murder of Roger Ackroyd","year":1926}
+  {"author":"Ursula K. Le Guin","available":2,"copies":2,"format":"print","genre":"Fantasy","id":12,"title":"A Wizard of Earthsea","year":1968}
+  {"author":"Aldous Huxley","available":2,"copies":2,"format":"audio","genre":"Dystopian","id":13,"title":"Brave New World","year":1932}
+  {"author":"Andy Weir","available":2,"copies":3,"format":"print","genre":"Science Fiction","id":14,"title":"The Martian","year":2011}
+  {"author":"Andrea Levy","available":1,"copies":1,"format":"print","genre":"Historical","id":15,"title":"Small Island","year":2004}
+  {"author":"Hilary Mantel","available":2,"copies":2,"format":"audio","genre":"Historical","id":16,"title":"Wolf Hall","year":2009}
+  {"author":"Kazuo Ishiguro","available":2,"copies":2,"format":"print","genre":"Literary","id":17,"title":"The Remains of the Day","year":1989}
+  {"author":"Kazuo Ishiguro","available":1,"copies":1,"format":"ebook","genre":"Literary","id":18,"title":"Never Let Me Go","year":2005}
+  {"author":"Mary Shelley","available":1,"copies":2,"format":"print","genre":"Gothic","id":19,"title":"Frankenstein","year":1818}
+  {"author":"H. G. Wells","available":3,"copies":3,"format":"audio","genre":"Science Fiction","id":20,"title":"The War of the Worlds","year":1898}
+]
+GET /books?title=the
+200 json
+[
+  {"author":"J. R. R. Tolkien","available":0,"copies":0,"format":"print","genre":"Fantasy","id":3,"title":"The Hobbit","year":1937}
+  {"author":"H. G. Wells","available":1,"copies":2,"format":"ebook","genre":"Science Fiction","id":6,"title":"The Time Machine","year":1895}
+  {"author":"Ursula K. Le Guin","available":0,"copies":0,"format":"print","genre":"Science Fiction","id":9,"title":"The Left Hand of Darkness","year":1969}
+  {"author":"Agatha Christie","available":1,"copies":2,"format":"print","genre":"Crime","id":10,"title":"Murder on the Orient Express","year":1934}
+  {"author":"Agatha Christie","available":1,"copies":1,"format":"ebook","genre":"Crime","id":11,"title":"The Murder of Roger Ackroyd","year":1926}
+  {"author":"Andy Weir","available":2,"copies":3,"format":"print","genre":"Science Fiction","id":14,"title":"The Martian","year":2011}
+  {"author":"Kazuo Ishiguro","available":2,"copies":2,"format":"print","genre":"Literary","id":17,"title":"The Remains of the Day","year":1989}
+  {"author":"H. G. Wells","available":3,"copies":3,"format":"audio","genre":"Science Fiction","id":20,"title":"The War of the Worlds","year":1898}
+]
+GET /books?title=TIME
+200 json
+[
+  {"author":"H. G. Wells","available":1,"copies":2,"format":"ebook","genre":"Science Fiction","id":6,"title":"The Time Machine","year":1895}
+]
+GET /books?title=war%20of
+200 json
+[
+  {"author":"H. G. Wells","available":3,"copies":3,"format":"audio","genre":"Science Fiction","id":20,"title":"The War of the Worlds","year":1898}
+]
+GET /books?title=zzz
+200 json
+[]
+POST /loans {"member_id": 101, "book_id": 4}
+201 json
+{"book_id":4,"borrowed":"2026-10-12","due":"2026-10-26","id":13,"member_id":101}
+GET /books?title=dune
+200 json
+[
+  {"author":"Frank Herbert","available":2,"copies":4,"format":"print","genre":"Science Fiction","id":4,"title":"Dune","year":1965}
+]
+POST /loans {"member_id": 101, "book_id": 3}
+409 json
+{"error":"The Hobbit has no copies available"}
+POST /loans {"member_id": 101, "book_id": 99}
+404 json
+{"error":"no book with id 99"}
+POST /loans {"member_id": 999, "book_id": 1}
+404 json
+{"error":"no member with id 999"}
+POST /loans hello
+400 json
+{"error":"body must be a JSON object with whole-number member_id and book_id"}
+POST /loans {"member_id": "101", "book_id": 4}
+400 json
+{"error":"body must be a JSON object with whole-number member_id and book_id"}
+POST /loans {"member_id": 105, "book_id": 2}
+201 json
+{"book_id":2,"borrowed":"2026-10-12","due":"2026-10-26","id":14,"member_id":105}
+POST /loans {"member_id": 105, "book_id": 7}
+409 json
+{"error":"Ella Brown already has 3 loans (limit 3)"}
+GET /nowhere
+404 json
+{"error":"not found"}

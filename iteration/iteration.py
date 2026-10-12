@@ -3,7 +3,7 @@
 # ============================================================
 
 # ------------------------------------------------------------
-# Basic Iteration — Lists, Dicts, Sets, Tuples
+# Basic Iteration - Lists, Dicts, Sets, Tuples
 # ------------------------------------------------------------
 
 # Iterating over a List
@@ -41,14 +41,14 @@ for item in my_tuple:
     print(item)  # Prints each item in the tuple
 
 # ------------------------------------------------------------
-# Generator Expressions — Memory-Efficient Iteration
+# Generator Expressions - Memory-Efficient Iteration
 # ------------------------------------------------------------
 gen = (x ** 2 for x in range(1, 6))
 for value in gen:
     print(value)  # Prints each square, values are computed on the fly
 
 # ------------------------------------------------------------
-# itertools — Advanced Iteration Patterns
+# itertools - Advanced Iteration Patterns
 # ------------------------------------------------------------
 import itertools
 

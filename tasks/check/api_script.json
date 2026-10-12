@@ -1,0 +1,17 @@
+[
+  {"method": "GET", "path": "/books"},
+  {"method": "GET", "path": "/books?title=the"},
+  {"method": "GET", "path": "/books?title=TIME"},
+  {"method": "GET", "path": "/books?title=war%20of"},
+  {"method": "GET", "path": "/books?title=zzz"},
+  {"method": "POST", "path": "/loans", "body": "{\"member_id\": 101, \"book_id\": 4}"},
+  {"method": "GET", "path": "/books?title=dune"},
+  {"method": "POST", "path": "/loans", "body": "{\"member_id\": 101, \"book_id\": 3}"},
+  {"method": "POST", "path": "/loans", "body": "{\"member_id\": 101, \"book_id\": 99}"},
+  {"method": "POST", "path": "/loans", "body": "{\"member_id\": 999, \"book_id\": 1}"},
+  {"method": "POST", "path": "/loans", "body": "hello"},
+  {"method": "POST", "path": "/loans", "body": "{\"member_id\": \"101\", \"book_id\": 4}"},
+  {"method": "POST", "path": "/loans", "body": "{\"member_id\": 105, \"book_id\": 2}"},
+  {"method": "POST", "path": "/loans", "body": "{\"member_id\": 105, \"book_id\": 7}"},
+  {"method": "GET", "path": "/nowhere"}
+]
