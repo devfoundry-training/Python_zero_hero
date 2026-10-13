@@ -1,5 +1,7 @@
 # Python Zero to Hero
 
+[![Tasks](https://github.com/devfoundry-training/Python_zero_hero/actions/workflows/tasks.yml/badge.svg)](https://github.com/devfoundry-training/Python_zero_hero/actions/workflows/tasks.yml)
+
 A structured teaching repository covering Python from first principles through to object-oriented programming, data handling, and testing. Each topic is a self-contained module with runnable examples and in-code commentary.
 
 ---
